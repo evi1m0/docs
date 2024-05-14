@@ -43,6 +43,9 @@
       "url": "api-reference"
     }
   ],
+  "primaryTab": {
+    "name": "Get Started"
+  },
   "navigation": [
     {
       "group": "Get Started",
