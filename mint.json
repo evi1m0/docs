@@ -18,35 +18,30 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@chainbase.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Start building",
     "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
     {
+      "name": "Data Catalog",
+      "url": "data-catalog"
+    },
+    {
+      "name": "Data Platform",
+      "url": "data-platform"
+    },
+    {
+      "name": "World Model",
+      "url": "world-model"
+    },
+    {
       "name": "API Reference",
       "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
     },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
   ],
   "navigation": [
     {
