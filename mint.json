@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Chainbase",
+  "name": "Chainbase Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -11,7 +11,7 @@
     "light": "#A5CFFF",
     "dark": "#000000",
     "background": {
-      "light": "#F3F7F7",
+      "light": "#fdfdf7",
       "dark": "#000000"
     }
   },
