@@ -11,7 +11,7 @@
     "light": "#A5CFFF",
     "dark": "#000000",
     "background": {
-      "light": "#FAFBFB",
+      "light": "#F3F7F7",
       "dark": "#000000"
     }
   },
@@ -23,7 +23,7 @@
     },
     {
       "icon": "discord",
-      "name": "Developer Discord",
+      "name": "Discord",
       "url": "https://chainbase.com/discord"
     }
   ],
@@ -56,11 +56,11 @@
     }
   ],
   "primaryTab": {
-    "name": "Get Started"
+    "name": "User guides"
   },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Get started",
       "pages": ["introduction", "quickstart", "development"]
     },
     {
@@ -88,8 +88,7 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://twitter.com/chainbaseHQ",
+    "github": "https://github.com/chainbase-labs"
   }
 }
