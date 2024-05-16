@@ -15,18 +15,6 @@
       "dark": "#000000"
     }
   },
-  "anchors": [
-    {
-      "icon": "code",
-      "name": "Developer Console",
-      "url": "https://console.chainbase.com/"
-    },
-    {
-      "icon": "discord",
-      "name": "Discord",
-      "url": "https://chainbase.com/discord"
-    }
-  ],
   "topbarLinks": [
     {
       "name": "Support",
@@ -89,6 +77,7 @@
   ],
   "footerSocials": {
     "x": "https://twitter.com/chainbaseHQ",
+    "discord": "https://chainbase.com/discord",
     "github": "https://github.com/chainbase-labs"
   }
 }
