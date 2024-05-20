@@ -21,10 +21,6 @@
       "url": "mailto:support@chainbase.com"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Start building",
-    "url": "https://dashboard.mintlify.com"
-  },
   "tabs": [
     {
       "name": "Data Catalog",
