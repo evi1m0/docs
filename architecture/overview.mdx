@@ -1,9 +1,16 @@
 ---
-title: 'Overview'
+title: "Overview"
 ---
+
 # **Architecture**
 
 ![overview](images/overview.png)
+
+<img
+  className="block dark:hidden"
+  src="/images/hero-light.svg"
+  alt="Hero Light"
+/>
 
 # Module Introduction
 
@@ -28,8 +35,8 @@ The consensus layer ensures that all nodes in the network reach a consensus on d
 The execution layer is responsible for large-scale data processing and execution of Manuscripts' data transformation logic. Including:
 
 - **Chainbase Virtual Machine (CVM):** A virtual machine that provides parallel computing capabilities to execute Manuscripts
-    - **Parallel Execution Engine:** Utilizes multithreading for parallel data processing, enhancing performance and throughput.
-    - **ChainbaseDB (CDB):** A database system that supports multiple data storage engines, including VectorDB, GraphDB, and KV storage.
+  - **Parallel Execution Engine:** Utilizes multithreading for parallel data processing, enhancing performance and throughput.
+  - **ChainbaseDB (CDB):** A database system that supports multiple data storage engines, including VectorDB, GraphDB, and KV storage.
 - **Eigenlayer AVS (Proof Verification System):** Introducing the Ethereum economic security brought by Restake, making the CVM running environment fully decentralized
 
 ### **Dual Staked Security**
@@ -37,8 +44,8 @@ The execution layer is responsible for large-scale data processing and execution
 This module enhances the network security of the consensus layer and execution layer in the dual-chain architecture through a double staked mechanism. Including:
 
 - Shared Staked Pool:
-    - Native Token Stake: $CNB native token captures network value
-    - Eigenlayer Restake: Introduces Ethereum tokens with low volatility and deep liquidity
+  - Native Token Stake: $CNB native token captures network value
+  - Eigenlayer Restake: Introduces Ethereum tokens with low volatility and deep liquidity
 - Double Staked Model: By aggregating all validators' stake and their power mapping for various assets, the total cryptographic economic security is calculated.
 
 ### Manuscripts
