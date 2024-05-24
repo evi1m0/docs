@@ -48,18 +48,18 @@
   },
   "navigation": [
     {
-      "group": "Get started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Introduction",
+      "pages": [
+        "introduction/about", 
+        "introduction/tokenomics", 
+        "introduction/whitepaper"
+      ]
     },
     {
-      "group": "Essentials",
+      "group": "Architecture",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "architecture/overview",
+        "architecture/execution_layer"
       ]
     },
     {
