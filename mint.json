@@ -28,19 +28,19 @@
     },
     {
       "name": "Data Catalog",
-      "url": "data-catalog"
+      "url": "https://chainbase.com/datasets"
     },
     {
       "name": "Data Platform",
-      "url": "data-platform"
+      "url": "https://docs.chainbase.com/"
     },
     {
       "name": "World Model",
-      "url": "world-model"
+      "url": "https://docs.chainbase.com/"
     },
     {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "https://docs.chainbase.com/reference/"
     }
   ],
   "primaryTab": {
@@ -50,28 +50,71 @@
     {
       "group": "Introduction",
       "pages": [
-        "introduction/about", 
+        "introduction/about",
+        {
+          "group": "Chainbase Layer 1 Network",
+          "pages": [
+            "introduction/networks/overview",
+            "introduction/networks/benefits",
+            "introduction/networks/developers",
+            "introduction/networks/consumers",
+            "introduction/networks/operators",
+            "introduction/networks/delegators"
+          ]
+        },
         "introduction/tokenomics", 
-        "introduction/whitepaper"
+        "introduction/whitepaper",
+        "introduction/faqs"
       ]
     },
     {
-      "group": "Architecture",
+      "group": "Core Concepts",
       "pages": [
-        "architecture/overview",
-        "architecture/execution_layer"
+        "core-concepts/manuscript",
+        "core-concepts/dual-chain",
+        "core-concepts/dual-staked",
+        "core-concepts/glossary",
+        {
+          "group": "Architecture",
+          "pages": [
+            "core-concepts/architecture/overview",
+            "core-concepts/architecture/execution_layer",
+            "core-concepts/architecture/consensus_layer",
+            "core-concepts/architecture/data_accessibility_layer"
+          ]
+        }
       ]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "group": "Developers",
+      "pages": [
+        "developers/getting_started",
+        "developers/manuscripts",
+        "developers/open_apis",
+        "developers/explorers",
+        "developers/faucet",
+        "developers/smart_contracts",
+        "developers/wallet_integration",
+        "developers/tools_&_sdks"
+      ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Contributing",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "contributing/overview",
+        "contributing/governance",
+        "contributing/cips"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "node/introduction",
+        "node/miner",
+        "node/validator",
+        "node/configuration",
+        "node/testnet",
+        "node/mainnet"
       ]
     }
   ],
