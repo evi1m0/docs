@@ -2,17 +2,17 @@
 title: 'Dual-Staked'
 ---
 
-# why dual staking?
+# Why dual staking?
 
 - Early PoS (Proof of Stake) networks can face a "death spiral" problem. If the token's value decreases, it weakens the network's security, leading to a decline in Total Value Locked (TVL), which further depresses the token price, thus creating a death spiral.
 
 ![death spiral](../images/dual-staking-1.png)
 capture:https://www.blog.eigenlayer.xyz
-# how it works
+# How it works
 
 Protect the same PoS network using two tokens, one of which can be a low-volatility, deep-liquidity, more accessible external network token such as Ethereum (ETH). Also use network native tokens to capture network value
 
-# different method
+# Different method
 
 **Modular Dual Staking**: Local operators and ETH-backed operators are required to reach a quorum respectively.
 
@@ -35,7 +35,7 @@ $MM is our native token, for more detail TBD
 - for LST part, staker first stake to operator then operator register  to our AVS. offline relayer watch && sync avs’s operator stake & delegations(eg.`sync(CainbaseAVS.Operator[] calldata operators`)) info with cosmos part(maybe call xxx chain ?)
 - For the $MM part, stakers interact with erc20-stake contract to emit a `Stake(bytes operator_pubkey, uint256 amount)` event. The relayer then watches for this event and syncs the information with the Cosmos part.
 - We choose the Native Dual Staking model where an oracle ensures fair price conversion of both `$LST` and `$MM` into `$MM-Stake` units.
-# **reference**
+# **Reference**
 
 - [Eigenlayer:Dual Staking: secure a PoS network with two tokens](https://www.blog.eigenlayer.xyz/dual-staking/)
 - [osmosis-labs:Mesh Security Architecture](https://github.com/osmosis-labs/mesh-security/blob/main/docs/README.md)
