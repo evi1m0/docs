@@ -52,7 +52,7 @@
       "pages": [
         "introduction/about",
         {
-          "group": "Chainbase Layer 1 Network",
+          "group": "Chainbase Network",
           "pages": [
             "introduction/networks/overview",
             "introduction/networks/benefits",
@@ -100,6 +100,7 @@
       "group": "Contributing",
       "pages": [
         "contributing/overview",
+        "contributing/roadmap",
         "contributing/governance",
         "contributing/cips"
       ]
