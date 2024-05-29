@@ -36,7 +36,7 @@
     },
     {
       "name": "World Model",
-      "url": "https://docs.chainbase.com/"
+      "url": "theia"
     },
     {
       "name": "API Reference",
@@ -114,6 +114,43 @@
         "node/configuration",
         "node/testnet",
         "node/mainnet"
+      ]
+    },
+    {
+      "group": "Introduction",
+      "pages": [
+        "theia/Introduction/what-is-crypto-world-model",
+        "theia/Introduction/what-is-unique",
+        "theia/Introduction/theia-agent"
+      ]
+    },
+    {
+      "group": "Gems of Theia",
+      "pages": [
+        "theia/gems/what-is-gems",
+        "theia/gems/theia-security-model",
+        "theia/gems/create-gems"
+      ]
+    },
+    {
+      "group": "Glossary",
+      "pages": [
+        "theia/Glossary/D2ORA",
+        "theia/Glossary/G2D"
+      ]
+    },
+    {
+      "group": "Developers",
+      "pages": [
+        "theia/Developers/Open-APIs"
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "theia/Resources/Whitepaper",
+        "theia/Resources/Roadmap",
+        "theia/Resources/FAQs"
       ]
     }
   ],
