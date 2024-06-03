@@ -72,7 +72,7 @@
       "pages": [
         "core-concepts/manuscript",
         "core-concepts/dual-chain",
-        "core-concepts/dual-staked",
+        "core-concepts/dual-staking",
         "core-concepts/glossary",
         {
           "group": "Architecture",
