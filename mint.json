@@ -109,11 +109,10 @@
       "group": "Getting Started",
       "pages": [
         "node/introduction",
-        "node/miner",
+        "node/operator",
         "node/validator",
         "node/configuration",
-        "node/testnet",
-        "node/mainnet"
+        "node/testnet"
       ]
     },
     {
