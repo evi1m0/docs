@@ -2,4 +2,46 @@
 title: 'Overview'
 ---
 
-## Coming soon
+
+The Graph Network consists of Operators, Validators,Developers and Delegators that provide services to the network and serve data to Web3 applications. Consumers use the applications and consume the data.
+
+
+
+## Operators
+
+Operators在网络中扮演着至关重要的角色，为执行层提供必要的计算资源，保证数据处理任务的顺利运行。
+Operators 根据类似工作量证明方式获取奖励，工作量越大需要的硬件要求越高，具体参考[operator details](xxx)
+
+要成为网络的Operators，必须首先在 Holesky 测试网或主网上的 Eigenlayer 智能合约上注册为运营商.
+这会将您的以太坊公钥注册到 Eigenlayer 智能合约中。您可以在[此处](https://docs.eigenlayer.xyz/eigenlayer/operator-guides/operator-installation)按照 Eigenlayer 的说明进行操作。
+
+## Validators
+
+验证者在维护网络安全和共识方面发挥着关键作用。他们负责验证交易、确保数据完整性并维护网络稳定性。
+网络中的验证者通过改进cometbft达成共识，使用DPOS根据质押$CBT数据大小，决定投票权重。
+
+成为网络中的验证者，对软硬件有一定要求，如果想成为网络中的验证者，请联系团队。
+
+## Developers
+
+开发者是网络数据的需求方，同时也是网络数据的生产者。开发人员构建手稿并将其发布到网络获取奖励，同时他们在构建Dapp时查询网络数据，成为网络的使用者。
+
+### 本地开发
+
+开发者在本地使用`chainbase-sdk`构建子图，具体参考[developers details](xxx)
+
+### 测试验证
+
+开发完后，可以部署到我们的沙箱环境，开发者有机会提前验证他们的手稿没有遇到任何索引错误，并且按预期工作。
+
+### 发布
+
+当开发人员对他们的手稿感到满意时，他们可以将其发布到网络。这是一个链上操作，它注册子图，以便索引器(operators)可以发现它。
+
+
+## Delegators
+委托人通过将代币质押给验证者和运营商来增强网络的经济安全性。
+我们网络使用双重质押机制，委托人可选择质押$ETH(or LST) 和$CBT
+
+TODO:
+
