@@ -55,7 +55,6 @@
           "group": "Chainbase Network",
           "pages": [
             "introduction/networks/overview",
-            "introduction/networks/benefits",
             "introduction/networks/developers",
             "introduction/networks/consumers",
             "introduction/networks/operators",
@@ -85,17 +84,7 @@
         }
       ]
     },
-    {
-      "group": "Developers",
-      "pages": [
-        "developers/getting_started",
-        "developers/manuscripts",
-        "developers/open_apis",
-        "developers/explorers",
-        "developers/faucet",
-        "developers/tools_&_sdks"
-      ]
-    },
+
     {
       "group": "Contributing",
       "pages": [
