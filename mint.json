@@ -56,7 +56,7 @@
           "pages": [
             "introduction/networks/overview",
             "introduction/networks/developers",
-            "introduction/networks/consumers",
+            "introduction/networks/validators",
             "introduction/networks/operators",
             "introduction/networks/delegators"
           ]
