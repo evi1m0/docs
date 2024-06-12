@@ -107,8 +107,7 @@
     {
       "group": "Data Catalog",
       "pages": [
-        "catalog/overview",
-        "catalog/freshness"
+        "catalog/overview"
       ]
     },
     {
@@ -117,6 +116,7 @@
         {
           "group": "Ethereum",
           "pages": [
+            "catalog/Ethereum/Overview",
             "catalog/Ethereum/Raw",
             "catalog/Ethereum/Decoded",
             "catalog/Ethereum/Abstracted"
