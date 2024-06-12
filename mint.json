@@ -28,7 +28,7 @@
     },
     {
       "name": "Data Catalog",
-      "url": "https://chainbase.com/datasets"
+      "url": "catalog"
     },
     {
       "name": "Data Platform",
@@ -56,12 +56,12 @@
           "pages": [
             "introduction/networks/overview",
             "introduction/networks/developers",
-            "introduction/networks/validators",
+            "introduction/networks/consumers",
             "introduction/networks/operators",
             "introduction/networks/delegators"
           ]
         },
-        "introduction/tokenomics", 
+        "introduction/tokenomics",
         "introduction/whitepaper",
         "introduction/faqs"
       ]
@@ -102,6 +102,59 @@
         "node/validator",
         "node/configuration",
         "node/testnet"
+      ]
+    },
+    {
+      "group": "Data Catalog",
+      "pages": [
+        "catalog/overview",
+        "catalog/freshness"
+      ]
+    },
+    {
+      "group": "Evm",
+      "pages": [
+        {
+          "group": "Ethereum",
+          "pages": [
+            "catalog/Ethereum/Raw",
+            "catalog/Ethereum/Decoded",
+            "catalog/Ethereum/Abstracted"
+          ]
+        },
+        {
+          "group": "BSC",
+          "pages": [
+            "catalog/BSC/Raw",
+            "catalog/BSC/Decoded",
+            "catalog/BSC/Abstracted"
+          ]
+        },
+        "catalog/Polygon",
+        "catalog/Avalanche",
+        "catalog/Fantom",
+        "catalog/Tron"
+      ]
+    },
+    {
+      "group": "Evm Layer2",
+      "pages": [
+        "catalog/Arbitrum",
+        "catalog/Optimism",
+        "catalog/Base",
+        "catalog/Blast",
+        "catalog/ZkSync"
+      ]
+    },
+    {
+      "group": "Non Evm",
+      "pages": [
+        "catalog/Bitcoin",
+        "catalog/Blast",
+        "catalog/Merlin",
+        "catalog/Sui",
+        "catalog/Ton",
+        "catalog/Tron"
       ]
     },
     {
