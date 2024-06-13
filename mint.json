@@ -117,7 +117,19 @@
           "group": "Ethereum",
           "pages": [
             "catalog/Ethereum/Overview",
-            "catalog/Ethereum/Raw",
+            {
+                "group": "Raw",
+                "pages": [
+                    "catalog/Ethereum/Raw/blobs",
+                    "catalog/Ethereum/Raw/blocks",
+                    "catalog/Ethereum/Raw/contracts",
+                    "catalog/Ethereum/Raw/trace_calls",
+                    "catalog/Ethereum/Raw/transactions",
+                    "catalog/Ethereum/Raw/token_transfers",
+                    "catalog/Ethereum/Raw/transaction_logs",
+                    "catalog/Ethereum/Raw/withdrawals"
+                ]
+            },
             "catalog/Ethereum/Decoded",
             "catalog/Ethereum/Abstracted"
           ]
