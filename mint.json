@@ -130,8 +130,34 @@
                     "catalog/Ethereum/Raw/withdrawals"
                 ]
             },
-            "catalog/Ethereum/Decoded",
-            "catalog/Ethereum/Abstracted"
+            {
+              "group": "Decoded",
+              "pages": [
+                "catalog/Ethereum/Decoded/trace_calls_decoded",
+                "catalog/Ethereum/Decoded/transaction_logs_decoded"
+              ]
+            },
+            {
+              "group": "Abstracted",
+              "pages": [
+                "catalog/Ethereum/Abstracted/token_metas",
+                "catalog/Ethereum/Abstracted/token_prices",
+                "catalog/Ethereum/Abstracted/token_prices_latest",
+                "catalog/Ethereum/Abstracted/erc20_balances",
+                "catalog/Ethereum/Abstracted/erc20_balances_historical",
+                "catalog/Ethereum/Abstracted/erc20_transfer",
+                "catalog/Ethereum/Abstracted/erc20_approval",
+                "catalog/Ethereum/Abstracted/erc721_transfer",
+                "catalog/Ethereum/Abstracted/erc721_approval",
+                "catalog/Ethereum/Abstracted/erc721_approval_for_all",
+                "catalog/Ethereum/Abstracted/erc1155_uri",
+                "catalog/Ethereum/Abstracted/erc1155_transfer_single",
+                "catalog/Ethereum/Abstracted/erc1155_transfer_batch",
+                "catalog/Ethereum/Abstracted/erc1155_approval_for_all",
+                "catalog/Ethereum/Abstracted/nft_holders",
+                "catalog/Ethereum/Abstracted/nft_holder_historical"
+              ]
+            }
           ]
         },
         {
