@@ -164,36 +164,471 @@
         {
           "group": "BSC",
           "pages": [
-            "catalog/BSC/Raw",
-            "catalog/BSC/Decoded",
-            "catalog/BSC/Abstracted"
+            "catalog/BSC/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/BSC/Raw/blocks",
+                "catalog/BSC/Raw/contracts",
+                "catalog/BSC/Raw/trace_calls",
+                "catalog/BSC/Raw/transactions",
+                "catalog/BSC/Raw/token_transfers",
+                "catalog/BSC/Raw/transaction_logs"
+              ]
+            },
+            {
+              "group": "Decoded",
+              "pages": [
+                "catalog/BSC/Decoded/overview",
+                "catalog/BSC/Decoded/trace_calls_decoded",
+                "catalog/BSC/Decoded/transaction_logs_decoded"
+              ]
+            },
+            {
+              "group": "Abstracted",
+              "pages": [
+                "catalog/BSC/Abstracted/token_metas",
+                "catalog/BSC/Abstracted/token_prices",
+                "catalog/BSC/Abstracted/token_prices_latest",
+                "catalog/BSC/Abstracted/erc20_balances",
+                "catalog/BSC/Abstracted/erc20_balances_historical",
+                "catalog/BSC/Abstracted/erc20_transfer",
+                "catalog/BSC/Abstracted/erc20_approval",
+                "catalog/BSC/Abstracted/erc721_transfer",
+                "catalog/BSC/Abstracted/erc721_approval",
+                "catalog/BSC/Abstracted/erc721_approval_for_all",
+                "catalog/BSC/Abstracted/erc1155_uri",
+                "catalog/BSC/Abstracted/erc1155_transfer_single",
+                "catalog/BSC/Abstracted/erc1155_transfer_batch",
+                "catalog/BSC/Abstracted/erc1155_approval_for_all",
+                "catalog/BSC/Abstracted/nft_holders",
+                "catalog/BSC/Abstracted/nft_holder_historical"
+              ]
+            }
           ]
         },
-        "catalog/Polygon",
-        "catalog/Avalanche",
-        "catalog/Fantom",
-        "catalog/Tron"
+        {
+          "group": "Polygon",
+          "pages": [
+            "catalog/Polygon/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/Polygon/Raw/blocks",
+                "catalog/Polygon/Raw/contracts",
+                "catalog/Polygon/Raw/trace_calls",
+                "catalog/Polygon/Raw/transactions",
+                "catalog/Polygon/Raw/token_transfers",
+                "catalog/Polygon/Raw/transaction_logs"
+              ]
+            },
+            {
+              "group": "Decoded",
+              "pages": [
+                "catalog/Polygon/Decoded/overview",
+                "catalog/Polygon/Decoded/trace_calls_decoded",
+                "catalog/Polygon/Decoded/transaction_logs_decoded"
+              ]
+            },
+            {
+              "group": "Abstracted",
+              "pages": [
+                "catalog/Polygon/Abstracted/token_metas",
+                "catalog/Polygon/Abstracted/token_prices",
+                "catalog/Polygon/Abstracted/token_prices_latest",
+                "catalog/Polygon/Abstracted/erc20_balances",
+                "catalog/Polygon/Abstracted/erc20_balances_historical",
+                "catalog/Polygon/Abstracted/erc20_transfer",
+                "catalog/Polygon/Abstracted/erc20_approval",
+                "catalog/Polygon/Abstracted/erc721_transfer",
+                "catalog/Polygon/Abstracted/erc721_approval",
+                "catalog/Polygon/Abstracted/erc721_approval_for_all",
+                "catalog/Polygon/Abstracted/erc1155_uri",
+                "catalog/Polygon/Abstracted/erc1155_transfer_single",
+                "catalog/Polygon/Abstracted/erc1155_transfer_batch",
+                "catalog/Polygon/Abstracted/erc1155_approval_for_all",
+                "catalog/Polygon/Abstracted/nft_holders",
+                "catalog/Polygon/Abstracted/nft_holder_historical"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Avalanche",
+          "pages": [
+            "catalog/Avalanche/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/Avalanche/Raw/blocks",
+                "catalog/Avalanche/Raw/contracts",
+                "catalog/Avalanche/Raw/trace_calls",
+                "catalog/Avalanche/Raw/transactions",
+                "catalog/Avalanche/Raw/token_transfers",
+                "catalog/Avalanche/Raw/transaction_logs"
+              ]
+            },
+            {
+              "group": "Decoded",
+              "pages": [
+                "catalog/Avalanche/Decoded/overview",
+                "catalog/Avalanche/Decoded/trace_calls_decoded",
+                "catalog/Avalanche/Decoded/transaction_logs_decoded"
+              ]
+            },
+            {
+              "group": "Abstracted",
+              "pages": [
+                "catalog/Avalanche/Abstracted/token_metas",
+                "catalog/Avalanche/Abstracted/token_prices",
+                "catalog/Avalanche/Abstracted/token_prices_latest",
+                "catalog/Avalanche/Abstracted/erc20_balances",
+                "catalog/Avalanche/Abstracted/erc20_balances_historical",
+                "catalog/Avalanche/Abstracted/erc20_transfer",
+                "catalog/Avalanche/Abstracted/erc20_approval",
+                "catalog/Avalanche/Abstracted/erc721_transfer",
+                "catalog/Avalanche/Abstracted/erc721_approval",
+                "catalog/Avalanche/Abstracted/erc721_approval_for_all",
+                "catalog/Avalanche/Abstracted/erc1155_uri",
+                "catalog/Avalanche/Abstracted/erc1155_transfer_single",
+                "catalog/Avalanche/Abstracted/erc1155_transfer_batch",
+                "catalog/Avalanche/Abstracted/erc1155_approval_for_all",
+                "catalog/Avalanche/Abstracted/nft_holders",
+                "catalog/Avalanche/Abstracted/nft_holder_historical"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Fantom",
+          "pages": [
+            "catalog/Fantom/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/Fantom/Raw/blocks",
+                "catalog/Fantom/Raw/contracts",
+                "catalog/Fantom/Raw/transactions",
+                "catalog/Fantom/Raw/transaction_logs"
+              ]
+            },
+            {
+              "group": "Decoded",
+              "pages": [
+                "catalog/Fantom/Decoded/overview"
+              ]
+            },
+            {
+              "group": "Abstracted",
+              "pages": [
+                "catalog/Fantom/Abstracted/nft_holders",
+                "catalog/Fantom/Abstracted/nft_holder_historical"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Tron",
+          "pages": [
+            "catalog/Tron/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/Tron/Raw/stable_coin_transfers"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
       "group": "Evm Layer2",
       "pages": [
-        "catalog/Arbitrum",
-        "catalog/Optimism",
-        "catalog/Base",
-        "catalog/Blast",
-        "catalog/ZkSync"
+        {
+          "group": "Arbitrum",
+          "pages": [
+            "catalog/Arbitrum/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/Arbitrum/Raw/blocks",
+                "catalog/Arbitrum/Raw/contracts",
+                "catalog/Arbitrum/Raw/trace_calls",
+                "catalog/Arbitrum/Raw/transactions",
+                "catalog/Arbitrum/Raw/token_transfers",
+                "catalog/Arbitrum/Raw/transaction_logs"
+              ]
+            },
+            {
+              "group": "Decoded",
+              "pages": [
+                "catalog/Arbitrum/Decoded/overview",
+                "catalog/Arbitrum/Decoded/trace_calls_decoded",
+                "catalog/Arbitrum/Decoded/transaction_logs_decoded"
+              ]
+            },
+            {
+              "group": "Abstracted",
+              "pages": [
+                "catalog/Arbitrum/Abstracted/token_metas",
+                "catalog/Arbitrum/Abstracted/token_prices",
+                "catalog/Arbitrum/Abstracted/token_prices_latest",
+                "catalog/Arbitrum/Abstracted/erc20_balances",
+                "catalog/Arbitrum/Abstracted/erc20_balances_historical",
+                "catalog/Arbitrum/Abstracted/erc20_transfer",
+                "catalog/Arbitrum/Abstracted/erc20_approval",
+                "catalog/Arbitrum/Abstracted/erc721_transfer",
+                "catalog/Arbitrum/Abstracted/erc721_approval",
+                "catalog/Arbitrum/Abstracted/erc721_approval_for_all",
+                "catalog/Arbitrum/Abstracted/erc1155_uri",
+                "catalog/Arbitrum/Abstracted/erc1155_transfer_single",
+                "catalog/Arbitrum/Abstracted/erc1155_transfer_batch",
+                "catalog/Arbitrum/Abstracted/erc1155_approval_for_all",
+                "catalog/Arbitrum/Abstracted/nft_holders",
+                "catalog/Arbitrum/Abstracted/nft_holder_historical"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Optimism",
+          "pages": [
+            "catalog/Optimism/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/Optimism/Raw/blocks",
+                "catalog/Optimism/Raw/contracts",
+                "catalog/Optimism/Raw/trace_calls",
+                "catalog/Optimism/Raw/transactions",
+                "catalog/Optimism/Raw/token_transfers",
+                "catalog/Optimism/Raw/transaction_logs"
+              ]
+            },
+            {
+              "group": "Decoded",
+              "pages": [
+                "catalog/Optimism/Decoded/overview",
+                "catalog/Optimism/Decoded/trace_calls_decoded",
+                "catalog/Optimism/Decoded/transaction_logs_decoded"
+              ]
+            },
+            {
+              "group": "Abstracted",
+              "pages": [
+                "catalog/Optimism/Abstracted/token_metas",
+                "catalog/Optimism/Abstracted/token_prices",
+                "catalog/Optimism/Abstracted/token_prices_latest",
+                "catalog/Optimism/Abstracted/erc20_balances",
+                "catalog/Optimism/Abstracted/erc20_balances_historical",
+                "catalog/Optimism/Abstracted/erc20_transfer",
+                "catalog/Optimism/Abstracted/erc20_approval",
+                "catalog/Optimism/Abstracted/erc721_transfer",
+                "catalog/Optimism/Abstracted/erc721_approval",
+                "catalog/Optimism/Abstracted/erc721_approval_for_all",
+                "catalog/Optimism/Abstracted/erc1155_uri",
+                "catalog/Optimism/Abstracted/erc1155_transfer_single",
+                "catalog/Optimism/Abstracted/erc1155_transfer_batch",
+                "catalog/Optimism/Abstracted/erc1155_approval_for_all",
+                "catalog/Optimism/Abstracted/nft_holders",
+                "catalog/Optimism/Abstracted/nft_holder_historical"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Base",
+          "pages": [
+            "catalog/Base/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/Base/Raw/blocks",
+                "catalog/Base/Raw/contracts",
+                "catalog/Base/Raw/trace_calls",
+                "catalog/Base/Raw/transactions",
+                "catalog/Base/Raw/token_transfers",
+                "catalog/Base/Raw/transaction_logs"
+              ]
+            },
+            {
+              "group": "Decoded",
+              "pages": [
+                "catalog/Base/Decoded/overview",
+                "catalog/Base/Decoded/trace_calls_decoded",
+                "catalog/Base/Decoded/transaction_logs_decoded"
+              ]
+            },
+            {
+              "group": "Abstracted",
+              "pages": [
+                "catalog/Base/Abstracted/token_metas",
+                "catalog/Base/Abstracted/token_prices",
+                "catalog/Base/Abstracted/token_prices_latest",
+                "catalog/Base/Abstracted/erc20_balances",
+                "catalog/Base/Abstracted/erc20_balances_historical",
+                "catalog/Base/Abstracted/erc20_transfer",
+                "catalog/Base/Abstracted/erc20_approval",
+                "catalog/Base/Abstracted/erc721_transfer",
+                "catalog/Base/Abstracted/erc721_approval",
+                "catalog/Base/Abstracted/erc721_approval_for_all",
+                "catalog/Base/Abstracted/erc1155_uri",
+                "catalog/Base/Abstracted/erc1155_transfer_single",
+                "catalog/Base/Abstracted/erc1155_transfer_batch",
+                "catalog/Base/Abstracted/erc1155_approval_for_all",
+                "catalog/Base/Abstracted/nft_holders",
+                "catalog/Base/Abstracted/nft_holder_historical"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Blast",
+          "pages": [
+            "catalog/Base/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/Blast/Raw/blocks",
+                "catalog/Blast/Raw/transactions",
+                "catalog/Blast/Raw/transaction_logs"
+              ]
+            },
+            {
+              "group": "Decoded",
+              "pages": [
+                "catalog/Blast/Decoded/overview"
+              ]
+            },
+            {
+              "group": "Abstracted",
+              "pages": [
+                "catalog/Blast/Abstracted/erc20_transfer",
+                "catalog/Blast/Abstracted/erc20_approval"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "zkSync",
+          "pages": [
+            "catalog/zkSync/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/zkSync/Raw/blocks",
+                "catalog/zkSync/Raw/contracts",
+                "catalog/zkSync/Raw/trace_calls",
+                "catalog/zkSync/Raw/transactions",
+                "catalog/zkSync/Raw/token_transfers",
+                "catalog/zkSync/Raw/transaction_logs"
+              ]
+            },
+            {
+              "group": "Decoded",
+              "pages": [
+                "catalog/zkSync/Decoded/overview",
+                "catalog/zkSync/Decoded/trace_calls_decoded",
+                "catalog/zkSync/Decoded/transaction_logs_decoded"
+              ]
+            },
+            {
+              "group": "Abstracted",
+              "pages": [
+                "catalog/zkSync/Abstracted/token_metas",
+                "catalog/zkSync/Abstracted/token_prices",
+                "catalog/zkSync/Abstracted/token_prices_latest",
+                "catalog/zkSync/Abstracted/erc20_balances",
+                "catalog/zkSync/Abstracted/erc20_balances_historical",
+                "catalog/zkSync/Abstracted/erc20_transfer",
+                "catalog/zkSync/Abstracted/erc20_approval",
+                "catalog/zkSync/Abstracted/erc721_transfer",
+                "catalog/zkSync/Abstracted/erc721_approval",
+                "catalog/zkSync/Abstracted/erc721_approval_for_all",
+                "catalog/zkSync/Abstracted/erc1155_uri",
+                "catalog/zkSync/Abstracted/erc1155_transfer_single",
+                "catalog/zkSync/Abstracted/erc1155_transfer_batch",
+                "catalog/zkSync/Abstracted/erc1155_approval_for_all",
+                "catalog/zkSync/Abstracted/nft_holders",
+                "catalog/zkSync/Abstracted/nft_holder_historical"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
       "group": "Non Evm",
       "pages": [
-        "catalog/Bitcoin",
-        "catalog/Blast",
-        "catalog/Merlin",
-        "catalog/Sui",
-        "catalog/Ton",
-        "catalog/Tron"
+        {
+          "group": "Bitcoin",
+          "pages": [
+            {
+              "group": "Abstracted",
+              "pages": [
+                "catalog/Bitcoin/Abstracted/brc20_token_balances",
+                "catalog/Bitcoin/Abstracted/brc20_token_info",
+                "catalog/Bitcoin/Abstracted/brc20_token_activities",
+                "catalog/Bitcoin/Abstracted/pipe_token_balances",
+                "catalog/Bitcoin/Abstracted/pipe_token_info",
+                "catalog/Bitcoin/Abstracted/pipe_token_activities"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Merlin",
+          "pages": [
+            "catalog/Merlin/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/Merlin/Raw/blocks",
+                "catalog/Merlin/Raw/transactions",
+                "catalog/Merlin/Raw/transaction_logs"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Sui",
+          "pages": [
+            "catalog/Sui/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/Sui/Raw/sui_nfts",
+                "catalog/Sui/Raw/sui_coins",
+                "catalog/Sui/Raw/sui_objects",
+                "catalog/Sui/Raw/sui_packages",
+                "catalog/Sui/Raw/sui_transactions",
+                "catalog/Sui/Raw/sui_coins_metadata",
+                "catalog/Sui/Raw/sui_transaction_blocks"
+              ]
+            },
+            {
+              "group": "Abstracted",
+              "pages": [
+                "catalog/Sui/Abstracted/erc20_transfer",
+                "catalog/Sui/Abstracted/erc20_approval"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Ton",
+          "pages": [
+            "catalog/Ton/Overview",
+            {
+              "group": "Raw",
+              "pages": [
+                "catalog/Sui/Raw/blocks",
+                "catalog/Sui/Raw/transactions",
+                "catalog/Sui/Raw/messages"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
