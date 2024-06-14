@@ -622,9 +622,9 @@
             {
               "group": "Raw",
               "pages": [
-                "catalog/Sui/Raw/blocks",
-                "catalog/Sui/Raw/transactions",
-                "catalog/Sui/Raw/messages"
+                "catalog/Ton/Raw/blocks",
+                "catalog/Ton/Raw/transactions",
+                "catalog/Ton/Raw/messages"
               ]
             }
           ]
