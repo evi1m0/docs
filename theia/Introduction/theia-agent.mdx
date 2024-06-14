@@ -3,25 +3,37 @@ title: 'Theia Agent'
 ---
 
 ### Introducing Theia Agent
-
-Theia Agent is a versatile and intelligent system built upon the robust foundation of Theia, designed to serve various needs within the crypto world. These agents leverage advanced machine learning techniques, including Retrieval-Augmented Generation (RAG) and real-time on-chain data, to provide specialized functions such as trading strategy development, security analysis, and public opinion monitoring. Theia Agents are capable of interpreting complex data and offering actionable insights, making them invaluable tools for users navigating the crypto ecosystem.
+To trigger the versatile capabilities of Theia in the crypto world, we propose Theia Agent built upon Theia model. Theia agent is designed to serve various needs within the crypto world, and is open to developer community that maximizes its value. Briefly speaking, developers can leverage prompt engineering, Retrieval-Augmented Generation (RAG) and real-time on-chain data, to provide specialized functions such as trading agent, security agent, and public opinion monitoring agent. Moreover, integrated with Chainbase omnichain data network, Theia Agents are capable of interpreting these complex data and offering actionable insights, making them invaluable tools for users navigating the crypto ecosystem.
 
 ### How to Build Theia Agent
 
-Theia Agents are constructed using a combination of RAG and real-time on-chain data integration, ensuring they remain current and effective. Here's an overview of the building process:
+Theia Agents is constructed using prompt and data engineering. We introduce these novel concepts including prompt engineering, RAG, and model self-tuning, which is used to build Theia agent.
 
-1. **Retrieval-Augmented Generation (RAG):**
-   - **Data Retrieval:** The agent retrieves relevant information from extensive datasets in real-time, which is essential for maintaining accuracy and relevance.
-   - **Data Generation:** By combining retrieved data with generative capabilities, the agent produces precise and contextually appropriate outputs.
-   - **Model Integration:** RAG effectively integrates retrieval-based models with generative models, providing a hybrid approach that leverages the strengths of both.
+1. **Prompt Engineering:**
 
-2. **Real-Time On-Chain Data:**
-   - **Continuous Data Access:** The agent continuously accesses and analyzes on-chain data, ensuring it reflects the latest state of the blockchain.
-   - **Dynamic Analysis:** Real-time data enables the agent to perform dynamic analyses and offer up-to-date insights, crucial for making timely decisions.
+Prompt engineering refers to a series of instruction for Theia. It can trigger Theia to wake up specific capability in some field and work as an agent as instructed. The instruction should be clear and the output format can be defined. To build a good agent, we normally tell Theia three important messages: role, hint for reasoning and generation, and goal.
+
+For example, to build a crypto investment adivsor, we can write the prompt including the three messages:
+   - **Role:** Theia, you are an investment advisor.
+   - **Hint:** Whenever I provide you a whitepaper of a project, please analyze the whitepaper and search the news of this project. 
+   - **Goal:** Then generate an investment advisory report.
+
+Thus, the complete prompt is "Theia, you are an investment advisor. Whenever I provide you a whitepaper of a project, please analyze the whitepaper and news of this project. Then generate an investment advisory report."
+
+2. **Retrieval-Augmented Generation (RAG):**
+
+RAG is a method to integrates retrieval-based models with AI models, utilizing the intelligence of AI to analyze data and generate results according to specific objectives. It mainly consists of three steps:
+   - **Data Retrieval:** Retrieve relevant information from external datasets, e.g., the price variation of BTC in the past 3 months. 
+   - **Agent Objective:** Define the objective of RAG by prompt engineering, e.g., "find the buying and selling signals according to the MACD".
+   - **Augmented Generation:** Input the retrieved data into the Theia Agent to get the augmented results. 
+
+Note that the data quality is one of the keys that decides the success of RAG. However, to obtain high-quality on-chain data, developers usually spent lots of time on extracting and aggregating data from blockchain. In Theia ecosystem, we are supported by Chainbase omnichain datanetwork, therefore providing massive high-quality data for users to build Theia agent in a cost-ffective and efficient fashion.
 
 3. **Model Self-Tuning:**
-   - **$D^2ORA$ Algorithm:** Theia Agents utilize the Decentralized Weight-Decomposed Low-Rank Adaptation ($D^2ORA$) algorithm to fine-tune themselves periodically. This self-tuning process improves the agent's intelligence in crypto without the need for initial training, as Theia has already been pre-trained.
-   - **Crypto Parameter Matrix:** The $D^2ORA$ algorithm focuses on updating the crypto-specific parameter matrix, ensuring that Theia Agents continually enhance their expertise in the crypto domain.
+
+Though prompt engineering and RAG can utilize the capabilities of Theia, the intelligence of Theia is actually not improved in the parameter level, e.g., the intrinsic IQ of Theia. To really increase the IQ of Theia for higher-level task, model self-tuning is proposed. As our community uses Theia and its agents, many dialogues data are generated. They are the new "courses and books" Theia needs to read and learn. Furthermore, the developers are encouraged to upload manually labelled data that is also valuable to increase the Theia intelligence. The more data Theia sees, the higher intelligence it has.
+
+The model self-tuning is based on the **Decentralized Weight-Decomposed Low-Rank Adaptation ($D^2ORA$)** algorithm that fine-tunes Theia periodically. The $D^2ORA$ algorithm focuses on updating the crypto-specific parameter matrix, ensuring that Theia Agents continually enhance their expertise in the crypto domain as more and more users build agents upon Theia.
 
 ### Potential Applications of Theia Agent
 
