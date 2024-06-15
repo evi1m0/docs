@@ -32,7 +32,7 @@
     },
     {
       "name": "Data Platform",
-      "url": "https://docs.chainbase.com/"
+    "url": "platform"
     },
     {
       "name": "World Model",
@@ -61,7 +61,7 @@
             "introduction/networks/delegators"
           ]
         },
-        "introduction/tokenomics", 
+        "introduction/tokenomics",
         "introduction/whitepaper",
         "introduction/faqs"
       ]
@@ -140,6 +140,70 @@
         "theia/Resources/Roadmap",
         "theia/Resources/FAQs"
       ]
+    },
+    {
+        "group": "Data Platform",
+        "pages": [
+            "platform/welcome",
+            "platform/quickstart",
+            {
+                "group": "Datasets",
+                "pages": [
+                    "platform/datasets/raw",
+                    "platform/datasets/decoded",
+                    "platform/datasets/abstracted"
+                ]
+            },
+            {
+                "group": "Features",
+                "pages": [
+                    "platform/features/dashboard",
+                    "platform/features/data-cloud",
+                    "platform/features/data-sync",
+                    "platform/features/log-explorer",
+                    "platform/features/hosting-indexer",
+                    "platform/features/decoding-contracts"
+                ]
+            },
+            {
+                "group": "APIs",
+                "pages": [
+                    "platform/apis/quickstart",
+                    "platform/apis/data-cloud-v2",
+                    "platform/apis/data-cloud-v1",
+                    "platform/apis/data-sync",
+                    "platform/apis/predefined-apis",
+                    "platform/apis/rpc-nodes"
+                ]
+            },
+            {
+                "group": "Prcing",
+                "pages": [
+                    "platform/pricing/pricing-model",
+                    "platform/pricing/billing"
+                ]
+            },
+            {
+                "group": "Supported Networks",
+                "pages": [
+                    "platform/supported-networks/ethereum"
+                ]
+            },
+            {
+                "group": "Use Cases & Tutorials",
+                "pages": [
+                    "platform/usecases/sql-guide",
+                    "platform/usecases/balance-api-tutorials",
+                    "platform/usecases/nft-api-tutorials"
+                ]
+            },
+            {
+                "group": "FAQs",
+                "pages": [
+                    "platform/faqs/faq"
+                ]
+            }
+        ]
     }
   ],
   "footerSocials": {
