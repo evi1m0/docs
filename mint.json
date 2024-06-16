@@ -145,7 +145,6 @@
         "group": "Data Platform",
         "pages": [
             "platform/welcome",
-            "platform/quickstart",
             {
                 "group": "Datasets",
                 "pages": [
