@@ -145,6 +145,7 @@
         "group": "Data Platform",
         "pages": [
             "platform/welcome",
+            "platform/supported-networks/supported-networks",
             {
                 "group": "Datasets",
                 "pages": [
@@ -156,11 +157,9 @@
             {
                 "group": "Features",
                 "pages": [
-                    "platform/features/dashboard",
                     "platform/features/data-cloud",
                     "platform/features/data-sync",
                     "platform/features/log-explorer",
-                    "platform/features/hosting-indexer",
                     "platform/features/decoding-contracts"
                 ]
             },
@@ -180,12 +179,6 @@
                 "pages": [
                     "platform/pricing/pricing-model",
                     "platform/pricing/billing"
-                ]
-            },
-            {
-                "group": "Supported Networks",
-                "pages": [
-                    "platform/supported-networks/ethereum"
                 ]
             },
             {
