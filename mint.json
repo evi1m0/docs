@@ -684,21 +684,30 @@
             {
                 "group": "Features",
                 "pages": [
-                    "platform/features/data-cloud",
-                    "platform/features/data-sync",
-                    "platform/features/log-explorer",
-                    "platform/features/decoding-contracts"
-                ]
-            },
-            {
-                "group": "APIs",
-                "pages": [
-                    "platform/apis/quickstart",
-                    "platform/apis/data-cloud-v2",
-                    "platform/apis/data-cloud-v1",
-                    "platform/apis/data-sync",
-                    "platform/apis/predefined-apis",
-                    "platform/apis/rpc-nodes"
+                    {
+                        "group": "API",
+                        "pages": [
+                            "platform/features/api/web3-api",
+                            "platform/features/api/sql-api",
+                            "platform/features/api/chain-rpc",
+                            "platform/features/api/log-explorer"
+                        ]
+                    },
+                    {
+                        "group": "Data Cloud",
+                        "pages": [
+                            "platform/features/datacloud/overview",
+                            "platform/features/datacloud/task-api"
+                        ]
+                    },
+                    {
+                        "group": "Sync",
+                        "pages": [
+                            "platform/features/sync/data-sync",
+                            "platform/features/sync/kafka",
+                            "platform/features/sync/webhook"
+                        ]
+                    }
                 ]
             },
             {
