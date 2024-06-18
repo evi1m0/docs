@@ -111,7 +111,7 @@
       ]
     },
     {
-      "group": "Evm",
+      "group": "EVM",
       "pages": [
         {
           "group": "Ethereum",
@@ -342,7 +342,7 @@
       ]
     },
     {
-      "group": "Evm Layer2",
+      "group": "EVM L2",
       "pages": [
         {
           "group": "Arbitrum",
@@ -558,7 +558,7 @@
       ]
     },
     {
-      "group": "Non Evm",
+      "group": "Non-EVM",
       "pages": [
         {
           "group": "Bitcoin",
