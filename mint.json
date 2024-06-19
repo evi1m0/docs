@@ -35,7 +35,7 @@
     "url": "platform"
     },
     {
-      "name": "World Model",
+      "name": "Crypto World Model",
       "url": "theia"
     },
     {
@@ -632,39 +632,39 @@
       ]
     },
     {
-      "group": "Introduction",
+      "group": "Crypto World Model",
       "pages": [
-        "theia/Introduction/what-is-crypto-world-model",
-        "theia/Introduction/what-is-unique",
-        "theia/Introduction/theia-agent"
+        "theia/World_model/welcome",
+        "theia/World_model/theia",
+        "theia/World_model/features"
       ]
     },
     {
-      "group": "Gems of Theia",
+      "group": "TheiaChat",
       "pages": [
-        "theia/gems/what-is-gems",
-        "theia/gems/theia-security-model",
-        "theia/gems/create-gems"
-      ]
-    },
-    {
-      "group": "Glossary",
-      "pages": [
-        "theia/Glossary/D2ORA",
-        "theia/Glossary/G2D"
+        "theia/TheiaChat/overview",
+        "theia/TheiaChat/task-models",
+        "theia/TheiaChat/create-task-models"
       ]
     },
     {
       "group": "Developers",
       "pages": [
-        "theia/Developers/Open-APIs"
+        "theia/Developers/Open-APIs",
+        {
+          "group": "Glossary",
+          "pages": [
+            "theia/Developers/Glossary/D2ORA",
+            "theia/Developers/Glossary/G2D"
+          ]
+        }
       ]
     },
     {
       "group": "Resources",
       "pages": [
-        "theia/Resources/Whitepaper",
         "theia/Resources/Roadmap",
+        "theia/Resources/Whitepaper",
         "theia/Resources/FAQs"
       ]
     },
