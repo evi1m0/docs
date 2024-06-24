@@ -694,9 +694,9 @@
                         ]
                     },
                     {
-                        "group": "Sync",
+                        "group": "Data Sync",
                         "pages": [
-                            "platform/features/sync/data-sync",
+                            "platform/features/sync/overview",
                             "platform/features/sync/kafka",
                             "platform/features/sync/webhook"
                         ]
