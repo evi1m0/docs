@@ -40,7 +40,7 @@
     },
     {
       "name": "API Reference",
-      "url": "https://docs.chainbase.com/reference/"
+    "url": "api-reference"
     }
   ],
   "primaryTab": {
@@ -713,6 +713,104 @@
                 ]
             },
             "platform/faqs/faq"
+        ]
+    },
+    {
+        "group": "API Reference",
+        "pages": [
+            "api-reference/introduction",
+            {
+                "group": "Overview",
+                "pages": [
+                    "api-reference/overview/supported-chains",
+                    "api-reference/overview/status-code",
+                    "api-reference/overview/jtw"
+                ]
+            },
+            {
+                "group": "Node RPC API",
+                "pages": [
+                    {
+                        "group": "EVM RPC API",
+                        "pages": [
+                            "api-reference/node-rpc/evm/overview"
+                        ]
+                    },
+                    {
+                        "group": "Aptos RPC API",
+                        "pages": [
+                            "api-reference/node-rpc/aptos/overview"
+                        ]
+                    },
+                    {
+                        "group": "Sui RPC API",
+                        "pages": [
+                            "api-reference/node-rpc/sui/overview"
+                        ]
+                    },
+                    {
+                        "group": "Ton RPC API",
+                        "pages": [
+                            "api-reference/node-rpc/ton/overview"
+                        ]
+                    }
+                ]
+            },
+            {
+                "group": "Web3 API",
+                "pages": [
+                    {
+                        "group": "Basic API",
+                        "pages": [
+                            "api-reference/web3-api/basic/overview"
+                        ]
+                    },
+                    {
+                        "group": "Token API",
+                        "pages": [
+                            "api-reference/web3-api/token/overview"
+                        ]
+                    },
+                    {
+                        "group": "Balance API",
+                        "pages": [
+                            "api-reference/web3-api/balance/overview"
+                        ]
+                    },
+                    {
+                        "group": "NFT API",
+                        "pages": [
+                            "api-reference/web3-api/nft/overview"
+                        ]
+                    },
+                    {
+                        "group": "Domain API",
+                        "pages": [
+                            "api-reference/web3-api/domain/overview"
+                        ]
+                    },
+                    {
+                        "group": "Inscription API",
+                        "pages": [
+                            "api-reference/web3-api/inscription/overview"
+                        ]
+                    }
+                ]
+            },
+            {
+                "group": "SQL API",
+                "pages": [
+                    "api-reference/sql-api/overview"
+                ]
+            },
+            {
+                "group": "Examples",
+                "pages": [
+                    "api-reference/examples/create",
+                    "api-reference/examples/delete",
+                    "api-reference/examples/get"
+                ]
+            }
         ]
     }
   ],
