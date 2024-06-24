@@ -30,11 +30,11 @@ title: "Overview"
 
 ```sql
 select
-block_timestamp,
-block_number,
-_value,
-_from,
-_to
+    block_timestamp,
+    block_number,
+    _value,
+    _from,
+    _to
 FROM ethereum.erc20_transfer
 WHERE block_number = 17089970
 ```
@@ -132,26 +132,38 @@ main().then(console.log);
 
 ```sql
 SELECT
-  'out' as type,
-  project,
-  token,
-  from_chain,
-  to_chain,
-  sum(cast(amount as decimal(38,0))) as total
-FROM bridge_ethereum.transfers
-WHERE "from" = '0xf99d58e463a2e07e5692127302c20a191861b4d6'
-group by project,token,from_chain,to_chain
+    'out' as type,
+    project,
+    token,
+    from_chain,
+    to_chain,
+    sum(cast(amount as decimal(38, 0))) as total
+FROM
+    bridge_ethereum.transfers
+WHERE
+    "from" = '0xf99d58e463a2e07e5692127302c20a191861b4d6'
+group by
+    project,
+    token,
+    from_chain,
+    to_chain
 UNION ALL
 SELECT
-  'in' as type,
-  project,
-  token,
-  from_chain,
-  to_chain,
-  sum(cast(amount as decimal(38,0))) as total
-FROM bridge_ethereum.transfers
-WHERE "to" = '0xf99d58e463a2e07e5692127302c20a191861b4d6'
-group by project,token,from_chain,to_chain
+    'in' as type,
+    project,
+    token,
+    from_chain,
+    to_chain,
+    sum(cast(amount as decimal(38, 0))) as total
+FROM
+    bridge_ethereum.transfers
+WHERE
+    "to" = '0xf99d58e463a2e07e5692127302c20a191861b4d6'
+group by
+    project,
+    token,
+    from_chain,
+    to_chain
 ```
 
 This query consists of two parts: one part calculates the total amount of funds sent from a specific address (marked as 'out'), and the other part calculates the total amount of funds sent to that address (marked as 'in'). The two parts are combined using UNION ALL to provide a complete view of the total cross-chain transfer amount.

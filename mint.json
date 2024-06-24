@@ -703,13 +703,7 @@
                     }
                 ]
             },
-            {
-                "group": "Prcing",
-                "pages": [
-                    "platform/pricing/pricing-model",
-                    "platform/pricing/billing"
-                ]
-            },
+            "platform/pricing/billing",
             {
                 "group": "Use Cases & Tutorials",
                 "pages": [
@@ -718,12 +712,7 @@
                     "platform/usecases/nft-api-tutorials"
                 ]
             },
-            {
-                "group": "FAQs",
-                "pages": [
-                    "platform/faqs/faq"
-                ]
-            }
+            "platform/faqs/faq"
         ]
     }
   ],
