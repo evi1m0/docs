@@ -317,13 +317,6 @@
               "pages": [
                 "catalog/Fantom/Decoded/overview"
               ]
-            },
-            {
-              "group": "Abstracted",
-              "pages": [
-                "catalog/Fantom/Abstracted/nft_holders",
-                "catalog/Fantom/Abstracted/nft_holder_historical"
-              ]
             }
           ]
         },
