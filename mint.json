@@ -665,53 +665,82 @@
             "pages": [
                 "platform/welcome",
                 "platform/supported-networks/supported-networks",
+                "platform/datasets/overview",
                 {
-                    "group": "Datasets",
+                    "group": "APIs",
                     "pages": [
-                        "platform/datasets/raw",
-                        "platform/datasets/decoded",
-                        "platform/datasets/abstracted"
+                        "platform/features/api/web3-api",
+                        {
+                            "group": "SQL API",
+                            "pages": [
+                                "platform/features/api/sql-api/overview",
+                                "platform/features/api/sql-api/datacloud-task-api",
+                                "platform/features/api/sql-api/datacloud-custom-api",
+                                "platform/features/api/sql-api/datacloud-api-classic"
+                            ]
+                        },
+                        "platform/features/api/chain-rpc"
                     ]
                 },
                 {
-                    "group": "Features",
+                    "group": "Data Cloud",
+                    "pages": [
+                        "platform/features/datacloud/overview",
+                        "platform/features/datacloud/sql"
+                    ]
+                },
+                {
+                    "group": "Data Sync",
+                    "pages": [
+                        "platform/features/sync/overview",
+                        "platform/features/sync/kafka",
+                        "platform/features/sync/webhook"
+                    ]
+                },
+                {
+                    "group": "Use Cases & Tutorials",
                     "pages": [
                         {
-                            "group": "API",
+                            "group": "Balance API Tutorials",
                             "pages": [
-                                "platform/features/api/web3-api",
-                                "platform/features/api/sql-api",
-                                "platform/features/api/chain-rpc",
-                                "platform/features/api/log-explorer"
+                                "platform/usecases/balance-api/get-native-token-balances",
+                                "platform/usecases/balance-api/get-nfts-owned-by-address"
                             ]
                         },
                         {
-                            "group": "Data Cloud",
+                            "group": "NFT API Tutorials",
                             "pages": [
-                                "platform/features/datacloud/overview",
-                                "platform/features/datacloud/task-api"
+                                "platform/usecases/nft-api/get-all-transfers-of-a-collection",
+                                "platform/usecases/nft-api/get-nft-metadata",
+                                "platform/usecases/nft-api/get-nft-owners-by-collection",
+                                "platform/usecases/nft-api/get-nft-owner-by-token"
                             ]
                         },
                         {
-                            "group": "Data Sync",
+                            "group": "Token API Tutorials",
                             "pages": [
-                                "platform/features/sync/overview",
-                                "platform/features/sync/kafka",
-                                "platform/features/sync/webhook"
+                                "platform/usecases/token-api/get-erc20-tokens-by-address",
+                                "platform/usecases/token-api/get-erc20-transfers-by-contract",
+                                "platform/usecases/token-api/get-token-metadata",
+                                "platform/usecases/token-api/get-holders-of-a-token",
+                                "platform/usecases/token-api/get-top-token-holders",
+                                "platform/usecases/token-api/get-token-price",
+                                "platform/usecases/token-api/get-token-price-history"
+                            ]
+                        },
+                        {
+                            "group": "Domain API Tutorials",
+                            "pages": [
+                                "platform/usecases/domain-api/resolve-domain",
+                                "platform/usecases/domain-api/reverse-resolve-domain",
+                                "platform/usecases/domain-api/get-domain-names-by-address"
                             ]
                         }
                     ]
                 },
-                "platform/pricing/billing",
-                {
-                    "group": "Use Cases & Tutorials",
-                    "pages": [
-                        "platform/usecases/sql-guide",
-                        "platform/usecases/balance-api-tutorials",
-                        "platform/usecases/nft-api-tutorials"
-                    ]
-                },
-                "platform/faqs/faq"
+                "platform/faqs/faq",
+                "platform/pricing/pricing",
+                "platform/support"
             ]
         },
         {
@@ -930,20 +959,6 @@
                                 "api-reference/web3-api/inscription/inscription-asc20/get-account-activities-from-asc20"
                             ]
                         }
-                    ]
-                },
-                {
-                    "group": "SQL API",
-                    "pages": [
-                        "api-reference/sql-api/overview"
-                    ]
-                },
-                {
-                    "group": "Examples",
-                    "pages": [
-                        "api-reference/examples/create",
-                        "api-reference/examples/delete",
-                        "api-reference/examples/get"
                     ]
                 }
             ]
