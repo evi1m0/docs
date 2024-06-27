@@ -31,7 +31,7 @@
                         "schema": {
                             "title": "Api-Key",
                             "type": "string",
-                            "default": "demo"
+                            "example": "demo"
                         },
                         "name": "api-key",
                         "in": "path"

@@ -21,12 +21,12 @@
                 "operationId": "GetNFTTransfers",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -146,7 +146,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -237,12 +238,12 @@
                 "operationId": "GetNFTMetadata",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -277,7 +278,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -368,12 +370,12 @@
                 "operationId": "GetNFTCollection",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -396,7 +398,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -487,12 +490,12 @@
                 "operationId": "GetNFTCollectionItems",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -542,7 +545,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -633,12 +637,12 @@
                 "operationId": "GetNFTSearch",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -710,7 +714,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -801,12 +806,12 @@
                 "operationId": "GetNFTOwner",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -853,7 +858,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -944,12 +950,12 @@
                 "operationId": "GetNFTOwners",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -999,7 +1005,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -1090,12 +1097,12 @@
                 "operationId": "GetNFTOwnerHistory",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -1202,7 +1209,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -1293,12 +1301,12 @@
                 "operationId": "GetNFTFloorPrice",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -1321,7 +1329,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -1412,12 +1421,12 @@
                 "operationId": "GetNFTPriceHistory",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -1462,7 +1471,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -1553,12 +1563,12 @@
                 "operationId": "GetNFTCollectionTrending",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -1632,7 +1642,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -1722,12 +1733,12 @@
                 "operationId": "GetNFTRarity",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -1807,7 +1818,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",

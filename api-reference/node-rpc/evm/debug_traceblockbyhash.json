@@ -31,7 +31,7 @@
                         "schema": {
                             "title": "Api-Key",
                             "type": "string",
-                            "default": "demo"
+                            "example": "demo"
                         },
                         "name": "api-key",
                         "in": "path"
@@ -140,13 +140,13 @@
                     "method": {
                         "title": "Method",
                         "type": "string",
-                        "default": "debug_traceBlockByHash"
+                        "example": "debug_traceBlockByHash"
                     },
                     "params": {
                         "title": "Params",
                         "type": "array",
                         "items": {},
-                        "default": [
+                        "example": [
                             "0x4e216c95f527e9ba0f1161a1c4609b893302c704f05a520da8141ca91878f63e",
                             {
                                 "tracer": "callTracer"
