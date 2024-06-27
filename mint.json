@@ -669,6 +669,7 @@
                 {
                     "group": "APIs",
                     "pages": [
+<<<<<<< HEAD
                         "platform/features/api/web3-api",
                         {
                             "group": "SQL API",
@@ -680,9 +681,19 @@
                             ]
                         },
                         "platform/features/api/chain-rpc"
+||||||| parent of ff1b388 (fix links & fill the documents)
+                        "platform/datasets/raw",
+                        "platform/datasets/decoded",
+                        "platform/datasets/abstracted"
+=======
+                        "platform/features/api/web3-api",
+                        "platform/features/api/sql-api",
+                        "platform/features/api/chain-rpc"
+>>>>>>> ff1b388 (fix links & fill the documents)
                     ]
                 },
                 {
+<<<<<<< HEAD
                     "group": "Data Cloud",
                     "pages": [
                         "platform/features/datacloud/overview",
@@ -699,7 +710,13 @@
                 },
                 {
                     "group": "Use Cases & Tutorials",
+||||||| parent of ff1b388 (fix links & fill the documents)
+                    "group": "Features",
+=======
+                    "group": "Data Cloud",
+>>>>>>> ff1b388 (fix links & fill the documents)
                     "pages": [
+<<<<<<< HEAD
                         {
                             "group": "Balance API Tutorials",
                             "pages": [
@@ -736,11 +753,72 @@
                                 "platform/usecases/domain-api/get-domain-names-by-address"
                             ]
                         }
+||||||| parent of ff1b388 (fix links & fill the documents)
+                        {
+                            "group": "API",
+                            "pages": [
+                                "platform/features/api/web3-api",
+                                "platform/features/api/sql-api",
+                                "platform/features/api/chain-rpc",
+                                "platform/features/api/log-explorer"
+                            ]
+                        },
+                        {
+                            "group": "Data Cloud",
+                            "pages": [
+                                "platform/features/datacloud/overview",
+                                "platform/features/datacloud/task-api"
+                            ]
+                        },
+                        {
+                            "group": "Data Sync",
+                            "pages": [
+                                "platform/features/sync/overview",
+                                "platform/features/sync/kafka",
+                                "platform/features/sync/webhook"
+                            ]
+                        }
+=======
+                        "platform/features/datacloud/overview",
+                        "platform/features/datacloud/sql"
                     ]
                 },
+                {
+                    "group": "Data Sync",
+                    "pages": [
+                        "platform/features/sync/overview",
+                        "platform/features/sync/kafka",
+                        "platform/features/sync/webhook"
+>>>>>>> ff1b388 (fix links & fill the documents)
+                    ]
+                },
+<<<<<<< HEAD
                 "platform/faqs/faq",
                 "platform/pricing/pricing",
                 "platform/support"
+||||||| parent of ff1b388 (fix links & fill the documents)
+                "platform/pricing/billing",
+                {
+                    "group": "Use Cases & Tutorials",
+                    "pages": [
+                        "platform/usecases/sql-guide",
+                        "platform/usecases/balance-api-tutorials",
+                        "platform/usecases/nft-api-tutorials"
+                    ]
+                },
+                "platform/faqs/faq"
+=======
+                {
+                    "group": "Use Cases & Tutorials",
+                    "pages": [
+                        "platform/usecases/sql-guide",
+                        "platform/usecases/balance-api-tutorials",
+                        "platform/usecases/nft-api-tutorials"
+                    ]
+                },
+                "platform/faqs/faq",
+                "platform/pricing/pricing"
+>>>>>>> ff1b388 (fix links & fill the documents)
             ]
         },
         {
