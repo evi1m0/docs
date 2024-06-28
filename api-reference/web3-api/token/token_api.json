@@ -21,12 +21,12 @@
                 "operationId": "GetTokenMetadata",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -49,7 +49,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -140,12 +141,12 @@
                 "operationId": "GetTokenTransfers",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -253,7 +254,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -344,12 +346,12 @@
                 "operationId": "GetTokenHolders",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -399,7 +401,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -490,12 +493,12 @@
                 "operationId": "GetTopTokenHolders",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -545,7 +548,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -636,12 +640,12 @@
                 "operationId": "GetTokenPrice",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -664,7 +668,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -755,12 +760,12 @@
                 "operationId": "GetTokenPriceHistory",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -807,7 +812,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",

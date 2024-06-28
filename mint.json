@@ -868,33 +868,33 @@
                     "group": "Web3 API",
                     "pages": [
                         {
+                            "group": "Balance API",
+                            "pages": [
+                                "api-reference/web3-api/balance/token-balances/get-erc20-token-balances",
+                                "api-reference/web3-api/balance/nft-balances/get-nfts-owned-by-address",
+                                "api-reference/web3-api/balance/token-balances/get-native-token-balances"
+                            ]
+                        },
+                        {
                             "group": "Basic API",
                             "pages": [
-                                "api-reference/web3-api/basic/block/get-block-by-number",
                                 "api-reference/web3-api/basic/block/get-latest-block-number",
-                                "api-reference/web3-api/basic/contract/contract-call",
-                                "api-reference/web3-api/basic/events/get-events-by-contract",
+                                "api-reference/web3-api/basic/block/get-block-by-number",
                                 "api-reference/web3-api/basic/transaction/get-transaction",
-                                "api-reference/web3-api/basic/transaction/get-transactions-by-account"
+                                "api-reference/web3-api/basic/transaction/get-transactions-by-account",
+                                "api-reference/web3-api/basic/events/get-events-by-contract",
+                                "api-reference/web3-api/basic/contract/contract-call"
                             ]
                         },
                         {
                             "group": "Token API",
                             "pages": [
-                                "api-reference/web3-api/token/market-data/get-token-price-history",
-                                "api-reference/web3-api/token/market-data/get-token-price",
-                                "api-reference/web3-api/token/token-transfers/get-token-transfers-by-contract",
                                 "api-reference/web3-api/token/token-metadata/get-token-metadata",
                                 "api-reference/web3-api/token/token-holders/get-top-token-holders",
-                                "api-reference/web3-api/token/token-holders/get-token-holders"
-                            ]
-                        },
-                        {
-                            "group": "Balance API",
-                            "pages": [
-                                "api-reference/web3-api/balance/nft-balances/get-nfts-owned-by-address",
-                                "api-reference/web3-api/balance/token-balances/get-erc20-token-balances",
-                                "api-reference/web3-api/balance/token-balances/get-native-token-balances"
+                                "api-reference/web3-api/token/token-holders/get-token-holders",
+                                "api-reference/web3-api/token/market-data/get-token-price",
+                                "api-reference/web3-api/token/market-data/get-token-price-history",
+                                "api-reference/web3-api/token/token-transfers/get-token-transfers-by-contract"
                             ]
                         },
                         {
@@ -927,30 +927,39 @@
                         {
                             "group": "Inscription API",
                             "pages": [
-                                "api-reference/web3-api/inscription/inscription-eths/get-tick-activities-from-eths",
-                                "api-reference/web3-api/inscription/inscription-eths/get-account-activities-from-eths",
-                                "api-reference/web3-api/inscription/inscription-eths/get-account-balance-from-eths",
-                                "api-reference/web3-api/inscription/inscription-eths/get-topholders-from-eths",
-                                "api-reference/web3-api/inscription/inscription-eths/get-tick-detail-from-eths",
-                                "api-reference/web3-api/inscription/inscription-eths/get-ticks-detail-from-eths",
-                                "api-reference/web3-api/inscription/inscription-brc20/get-account-balance-from-brc20",
-                                "api-reference/web3-api/inscription/inscription-brc20/get-account-activities-from-brc20",
-                                "api-reference/web3-api/inscription/inscription-brc20/get-tick-activities-from-brc20",
-                                "api-reference/web3-api/inscription/inscription-brc20/get-topholders-from-brc20",
-                                "api-reference/web3-api/inscription/inscription-brc20/get-tick-detail-from-brc20",
-                                "api-reference/web3-api/inscription/inscription-brc20/get-ticks-detail-from-brc20",
-                                "api-reference/web3-api/inscription/inscription-pipe/get-ticks-detail-from-pipe",
-                                "api-reference/web3-api/inscription/inscription-pipe/get-tick-detail-from-pipe",
-                                "api-reference/web3-api/inscription/inscription-pipe/get-account-activities-from-pipe",
-                                "api-reference/web3-api/inscription/inscription-pipe/get-tick-activities-from-pipe",
-                                "api-reference/web3-api/inscription/inscription-pipe/get-topholders-from-pipe",
-                                "api-reference/web3-api/inscription/inscription-pipe/get-account-balance-from-pipe",
-                                "api-reference/web3-api/inscription/inscription-asc20/get-tick-detail-from-asc20",
-                                "api-reference/web3-api/inscription/inscription-asc20/get-ticks-detail-from-asc20",
-                                "api-reference/web3-api/inscription/inscription-asc20/get-topholders-from-asc20",
-                                "api-reference/web3-api/inscription/inscription-asc20/get-tick-activities-from-asc20",
-                                "api-reference/web3-api/inscription/inscription-asc20/get-account-balance-from-asc20",
-                                "api-reference/web3-api/inscription/inscription-asc20/get-account-activities-from-asc20"
+                                {
+                                    "group": "eths",
+                                    "pages": [
+                                        "api-reference/web3-api/inscription/inscription-brc20/get-account-balance-from-brc20",
+                                        "api-reference/web3-api/inscription/inscription-brc20/get-account-activities-from-brc20",
+                                        "api-reference/web3-api/inscription/inscription-brc20/get-tick-activities-from-brc20",
+                                        "api-reference/web3-api/inscription/inscription-brc20/get-topholders-from-brc20",
+                                        "api-reference/web3-api/inscription/inscription-brc20/get-tick-detail-from-brc20",
+                                        "api-reference/web3-api/inscription/inscription-brc20/get-ticks-detail-from-brc20"
+                                    ]
+                                },
+                                {
+                                    "group": "pipe",
+                                    "pages": [
+                                        "api-reference/web3-api/inscription/inscription-pipe/get-ticks-detail-from-pipe",
+                                        "api-reference/web3-api/inscription/inscription-pipe/get-tick-detail-from-pipe",
+                                        "api-reference/web3-api/inscription/inscription-pipe/get-account-activities-from-pipe",
+                                        "api-reference/web3-api/inscription/inscription-pipe/get-tick-activities-from-pipe",
+                                        "api-reference/web3-api/inscription/inscription-pipe/get-topholders-from-pipe",
+                                        "api-reference/web3-api/inscription/inscription-pipe/get-account-balance-from-pipe"
+                                    ]
+                                },
+                                {
+                                    "group": "asc20",
+                                    "pages": [
+                                        "api-reference/web3-api/inscription/inscription-asc20/get-tick-detail-from-asc20",
+                                        "api-reference/web3-api/inscription/inscription-asc20/get-ticks-detail-from-asc20",
+                                        "api-reference/web3-api/inscription/inscription-asc20/get-topholders-from-asc20",
+                                        "api-reference/web3-api/inscription/inscription-asc20/get-tick-activities-from-asc20",
+                                        "api-reference/web3-api/inscription/inscription-asc20/get-account-balance-from-asc20",
+                                        "api-reference/web3-api/inscription/inscription-asc20/get-account-activities-from-asc20"
+                                    ]
+                                }
                             ]
                         }
                     ]
@@ -972,6 +981,18 @@
                                 "api-reference/sql-api/data-cloud-sql-query"
                             ]
                         }
+                    ]
+                },
+                {
+                    "group": "WEBHOOK API",
+                    "pages": [
+                        "api-reference/webhook-api/get-all-webhooks",
+                        "api-reference/webhook-api/get-webhook",
+                        "api-reference/webhook-api/create-webhook",
+                        "api-reference/webhook-api/update-webhook",
+                        "api-reference/webhook-api/activate-webhook",
+                        "api-reference/webhook-api/deactivate-webhook",
+                        "api-reference/webhook-api/delete-webhook"
                     ]
                 }
             ]

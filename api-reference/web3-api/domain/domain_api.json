@@ -21,12 +21,12 @@
                 "operationId": "GetAccountENS",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -61,7 +61,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -152,12 +153,12 @@
                 "operationId": "GetENSRecords",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -191,7 +192,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -282,12 +284,12 @@
                 "operationId": "GetENSReverse",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -322,7 +324,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -413,12 +416,12 @@
                 "operationId": "GetSPACEIDRecords",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "56",
                         "name": "chain_id",
@@ -452,7 +455,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
@@ -543,12 +547,12 @@
                 "operationId": "GetSPACEIDReverse",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)",
+                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](https://docs.chainbase.com/reference/supported-chains)"
+                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
                         },
                         "example": "56",
                         "name": "chain_id",
@@ -583,7 +587,8 @@
                         "required": true,
                         "schema": {
                             "title": "X-Api-Key",
-                            "type": "string"
+                            "type": "string",
+                            "example": "demo"
                         },
                         "example": "demo",
                         "name": "x-api-key",
