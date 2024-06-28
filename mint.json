@@ -674,6 +674,14 @@
                     ]
                 },
                 {
+                    "group": "Data Sync",
+                    "pages": [
+                        "platform/features/sync/overview",
+                        "platform/features/sync/kafka",
+                        "platform/features/sync/webhook"
+                    ]
+                },
+                {
                     "group": "APIs",
                     "pages": [
                         "platform/features/api/web3-api",
@@ -686,15 +694,8 @@
                                 "platform/features/api/sql-api/datacloud-api-classic"
                             ]
                         },
-                        "platform/features/api/chain-rpc"
-                    ]
-                },
-                {
-                    "group": "Data Sync",
-                    "pages": [
-                        "platform/features/sync/overview",
-                        "platform/features/sync/kafka",
-                        "platform/features/sync/webhook"
+                        "platform/features/api/chain-rpc",
+                        "platform/features/api/webhook-api"
                     ]
                 },
                 {
@@ -746,15 +747,9 @@
         {
             "group": "API Reference",
             "pages": [
-                "api-reference/introduction",
-                {
-                    "group": "Overview",
-                    "pages": [
-                        "api-reference/overview/supported-chains",
-                        "api-reference/overview/status-code",
-                        "api-reference/overview/jtw"
-                    ]
-                },
+                "api-reference/overview",
+                "api-reference/status-code",
+                "api-reference/jtw",
                 {
                     "group": "Node RPC API",
                     "pages": [
@@ -868,14 +863,6 @@
                     "group": "Web3 API",
                     "pages": [
                         {
-                            "group": "Balance API",
-                            "pages": [
-                                "api-reference/web3-api/balance/token-balances/get-erc20-token-balances",
-                                "api-reference/web3-api/balance/nft-balances/get-nfts-owned-by-address",
-                                "api-reference/web3-api/balance/token-balances/get-native-token-balances"
-                            ]
-                        },
-                        {
                             "group": "Basic API",
                             "pages": [
                                 "api-reference/web3-api/basic/block/get-latest-block-number",
@@ -884,6 +871,14 @@
                                 "api-reference/web3-api/basic/transaction/get-transactions-by-account",
                                 "api-reference/web3-api/basic/events/get-events-by-contract",
                                 "api-reference/web3-api/basic/contract/contract-call"
+                            ]
+                        },
+                        {
+                            "group": "Balance API",
+                            "pages": [
+                                "api-reference/web3-api/balance/token-balances/get-erc20-token-balances",
+                                "api-reference/web3-api/balance/nft-balances/get-nfts-owned-by-address",
+                                "api-reference/web3-api/balance/token-balances/get-native-token-balances"
                             ]
                         },
                         {
