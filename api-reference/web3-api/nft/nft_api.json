@@ -21,12 +21,12 @@
                 "operationId": "GetNFTTransfers",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -238,12 +238,12 @@
                 "operationId": "GetNFTMetadata",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -370,12 +370,12 @@
                 "operationId": "GetNFTCollection",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -490,12 +490,12 @@
                 "operationId": "GetNFTCollectionItems",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -637,12 +637,12 @@
                 "operationId": "GetNFTSearch",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -806,12 +806,12 @@
                 "operationId": "GetNFTOwner",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -950,12 +950,12 @@
                 "operationId": "GetNFTOwners",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -1097,12 +1097,12 @@
                 "operationId": "GetNFTOwnerHistory",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -1301,12 +1301,12 @@
                 "operationId": "GetNFTFloorPrice",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -1421,12 +1421,12 @@
                 "operationId": "GetNFTPriceHistory",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -1563,12 +1563,12 @@
                 "operationId": "GetNFTCollectionTrending",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -1733,12 +1733,12 @@
                 "operationId": "GetNFTRarity",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",

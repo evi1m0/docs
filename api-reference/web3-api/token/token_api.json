@@ -21,12 +21,12 @@
                 "operationId": "GetTokenMetadata",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -141,12 +141,12 @@
                 "operationId": "GetTokenTransfers",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -346,12 +346,12 @@
                 "operationId": "GetTokenHolders",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -493,12 +493,12 @@
                 "operationId": "GetTopTokenHolders",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -640,12 +640,12 @@
                 "operationId": "GetTokenPrice",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -760,12 +760,12 @@
                 "operationId": "GetTokenPriceHistory",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",

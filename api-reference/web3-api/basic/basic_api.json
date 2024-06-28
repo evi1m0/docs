@@ -21,12 +21,12 @@
                 "operationId": "GetBlockNumberLatest",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -128,12 +128,12 @@
                 "operationId": "GetBlockDetail",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -246,12 +246,12 @@
                 "operationId": "GetTxDetail",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -387,12 +387,12 @@
                 "operationId": "GetAccountTxs",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "string",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
@@ -579,12 +579,12 @@
                 "operationId": "GetContractEvents",
                 "parameters": [
                     {
-                        "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)",
+                        "description": "chain network id, see [list of details](/platform/features/api/web3-api)",
                         "required": true,
                         "schema": {
                             "title": "Chain Id",
                             "type": "integer",
-                            "description": "chain network id, see [list of details](/api-reference/overview/supported-chains)"
+                            "description": "chain network id, see [list of details](/platform/features/api/web3-api)"
                         },
                         "example": "1",
                         "name": "chain_id",
