@@ -8,212 +8,74 @@ title: "Chain RPC"
 Go to [console.chainbase.com](https://console.chainbase.com/) to create an account and a new API key.
 </Note>
 
-## Ethereum
+<CardGroup cols={2}>
+    <Card title="EVM RPC API" href="/api-reference/node-rpc/evm/web3_clientVersion" />
+    <Card title="Aptos RPC API" href="/api-reference/node-rpc/aptos/blocks/get-blocks-by-height" />
+    <Card title="Sui RPC API" href="/api-reference/node-rpc/sui/blocks/get-blocks-by-height" />
+    <Card title="Ton RPC API" href="/api-reference/node-rpc/ton/blocks/get-masterchain-info" />
+</CardGroup>
 
-API LIST: https://docs.chainbase.com/reference/evm-rpc-api-overview
+## EVM RPC API
 
-### Mainnet
+### What is the EVM RPC API?
 
-- Chain ID: 1
-- Currency: ETH
-- HTTPS\: https://ethereum-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-- WebSocket: wss://ethereum-mainnet.s.chainbase.com/v1/YOUR-API-KEY
+The EVM RPC API enables applications to connect to an Ethereum-compatible node supported by Chainbase. By utilizing the API's endpoints, developers can interact with on-chain data and send various types of transactions to the network. The API adheres to the JSON-RPC standard, which is a stateless, lightweight remote procedure call (RPC) protocol frequently used for interacting with Ethereum.
 
-## Merlin
+### Supported networks
 
-API LIST: https://docs.chainbase.com/reference/evm-rpc-api-overview
+* ethereum-mainnet
+* merlin-mainnet
+* polygon-mainnet
+* polygon-mumbai
+* bsc-mainnet
+* bsc-testnet
+* avalanche-mainnet
+* avalanche-testnet
+* fantom-mainnet
+* fantom-testnet
+* arbitrum-mainnet
+* optimism-mainnet
+* base-mainnet
+* zksync-mainnet
+* blast-mainnet
+* merlin-mainnet
 
-### Mainnet
+## Aptos RPC API
 
-- Chain ID: 4200
-- Currency: BTC
-- HTTPS\: https://merlin-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-- WebSocket: wss://merlin-mainnet.s.chainbase.com/v1/YOUR-API-KEY
+### What is the Aptos RPC API?
 
-***
+The Aptos RPC API is a RESTful API for client applications to interact with the Aptos blockchain. By utilizing the API's endpoints, developers can interact with on-chain data and send various types of transactions to the network.
 
-## Polygon
+### Public Endpoint
 
-API LIST: https://docs.chainbase.com/reference/evm-rpc-api-overview
+We have a rate limit of 20 r/s for public endpoint.
 
-### Mainnet
+#### Testnet
 
-- Chain ID: 137
-- Currency: MATIC
-- HTTPS\: https://polygon-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-- WebSocket: wss://polygon-mainnet.s.chainbase.com/v1/YOUR-API-KEY
+Endpoint: https://testnet-rpc.aptos.chainbase.online
 
-### Mumbai
+#### Mainnet
 
-- Chain ID: 80001
-- Currency: MATIC
-- HTTPS\: https://polygon-mumbai.s.chainbase.com/v1/YOUR-API-KEY
-- WebSocket: wss://polygon-mumbai.s.chainbase.com/v1/YOUR-API-KEY
+Endpoint: https://mainnet-rpc.aptos.chainbase.online
 
-***
+## Sui RPC API
 
-## BNB Chain
+Chainbase is a supporter of the Sui ecosystem. With extensive experience operating in Sui nodes, we provide highly available RPC services. We are also a validating node of the SUI network, working with over 100 nodes worldwide to provide sufficient decentralization support for the high TPS of the Sui network.
 
-API LIST: https://docs.chainbase.com/reference/evm-rpc-api-overview
+We provide three types of services for Sui:
 
-### Mainnet
+### Public Endpoint
 
-- Chain ID: 56
-- Currency: BNB
-- HTTPS\: https://bsc-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-- WebSocket: wss://bsc-mainnet.s.chainbase.com/v1/YOUR-API-KEY
+We have a rate limit of 20 r/s for public endpoint.
 
-### Testnet
+#### Testnet
 
-- Chain ID: 97
-- Currency: tBNB
-- HTTPS\: https://bsc-testnet.s.chainbase.com/v1/YOUR-API-KEY
-- WebSocket: wss://bsc-testnet.s.chainbase.com/v1/YOUR-API-KEY
+Endpoint: https://testnet-rpc.sui.chainbase.online
 
-***
+#### Mainnet
 
-## Avalanche C-Chain
+Endpoint: https://mainnet-rpc.sui.chainbase.online
 
-API LIST: https://docs.chainbase.com/reference/evm-rpc-api-overview
+## Ton RPC API
 
-### Mainnet
-
-- Chain ID: 43114
-- Currency: AVAX
-- HTTPS\: https://avalanche-mainnet.s.chainbase.com/v1/YOUR-API-KEY/ext/bc/C/rpc
-- WebSocket: wss://avalanche-mainnet.s.chainbase.com/v1/YOUR-API-KEY/ext/bc/C/rpc
-
-### Testnet
-
-- Chain ID: 43113
-- Currency: AVAX
-- HTTPS\: https://avalanche-testnet.s.chainbase.com/v1/YOUR-API-KEY/ext/bc/C/rpc
-- WebSocket: wss://avalanche-testnet.s.chainbase.com/v1/YOUR-API-KEY/ext/bc/C/rpc
-
-***
-
-## Fantom
-
-API LIST: https://docs.chainbase.com/reference/evm-rpc-api-overview
-
-### Mainnet
-
-- Chain ID: 250
-- Currency: FTM
-- HTTPS\: https://fantom-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-- WebSocket: wss://fantom-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-
-### Testnet
-
-- Chain ID: 4002
-- Currency: FTM
-- HTTPS\: https://fantom-testnet.s.chainbase.com/v1/{{YOUR-API-KEY}}
-- WebSocket: wss://fantom-testnet.s.chainbase.com/v1/YOUR-API-KEY
-
-***
-
-## Arbitrum One
-
-API LIST: https://docs.chainbase.com/reference/evm-rpc-api-overview
-
-### Mainnet
-
-- Chain ID: 42161
-- Currency: ETH
-- HTTPS\: https://arbitrum-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-- WebSocket: wss://arbitrum-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-
-***
-
-## Optimism
-
-API LIST: https://docs.chainbase.com/reference/evm-rpc-api-overview
-
-### Mainnet
-
-- Chain ID: 10
-- Currency: ETH
-- HTTPS\: https://optimism-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-- WebSocket: wss://optimism-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-
-***
-
-## Base
-
-API LIST: https://docs.chainbase.com/reference/evm-rpc-api-overview
-
-### Mainnet
-
-- Chain ID: 8453
-- Currency: ETH
-- HTTPS\: https://base-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-- WebSocket: wss://base-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-
-***
-
-## zkSync
-
-API LIST: https://docs.chainbase.com/reference/evm-rpc-api-overview
-
-### Mainnet
-
-- Chain ID: 324
-- Currency: ETH
-- HTTPS\: https://zksync-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-- WebSocket: wss://zksync-testnet.s.chainbase.com/v1/YOUR-API-KEY
-
-***
-
-## Starknet
-
-### Mainnet
-
-- [https://starknet-mainnet.s.chainbase.com/v1/YOUR-API-KEY](https://starknet-goerli.s.chainbase.com/v1/YOUR-API-KEY)
-
-### Testnet
-
-- https://starknet-goerli.s.chainbase.com/v1/YOUR-API-KEY
-
-***
-
-## Aptos
-
-API LIST: https://docs.chainbase.com/reference/aptos-api-overview
-
-### Mainnet
-
-- Chain ID: 1
-- Currency: APTOS
-- HTTPS\: https://aptos-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-
-### Testnet
-
-- Chain ID: 2022
-- Currency: TAPTOS
-- HTTPS\: https://aptos-testnet.s.chainbase.com/v1/YOUR-API-KEY
-
-***
-
-## Sui
-
-API LIST: https://docs.chainbase.com/reference/rpc-node-for-sui
-
-### Mainnet
-
-- Currency: SUI
-- HTTPS\: https://sui-mainnet.s.chainbase.com/v1/YOUR-API-KEY
-
-### Testnet
-
-- Currency: Sui
-- HTTPS\: https://sui-testnet.s.chainbase.com/v1/YOUR-API-KEY
-
-***
-
-## TON
-
-API LIST: https://docs.chainbase.com/reference/ton-api-overview
-
-### Mainnet
-
-- HTTPS\: https://ton-mainnet.s.chainbase.com/online/v1/YOUR-API-KEY
+The TON API provides an interface for interacting with the TON Network, offering highly flexible, secure, and efficient way to manage accounts, transactions and blocks data. TON is a dynamic decentralized network, providing a variety of possibilities for the development of smart contracts and Dapps.

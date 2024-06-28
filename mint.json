@@ -667,6 +667,13 @@
                 "platform/supported-networks/supported-networks",
                 "platform/datasets/overview",
                 {
+                    "group": "Data Cloud",
+                    "pages": [
+                        "platform/features/datacloud/overview",
+                        "platform/features/datacloud/sql"
+                    ]
+                },
+                {
                     "group": "APIs",
                     "pages": [
                         "platform/features/api/web3-api",
@@ -680,13 +687,6 @@
                             ]
                         },
                         "platform/features/api/chain-rpc"
-                    ]
-                },
-                {
-                    "group": "Data Cloud",
-                    "pages": [
-                        "platform/features/datacloud/overview",
-                        "platform/features/datacloud/sql"
                     ]
                 },
                 {
@@ -761,7 +761,6 @@
                         {
                             "group": "EVM RPC API",
                             "pages": [
-                                "api-reference/node-rpc/evm/overview",
                                 "api-reference/node-rpc/evm/web3_clientVersion",
                                 "api-reference/node-rpc/evm/web3_sha3",
                                 "api-reference/node-rpc/evm/eth_blockNumber",
@@ -836,12 +835,7 @@
                                 "api-reference/node-rpc/aptos/events/get-events-by-event-handle"
                             ]
                         },
-                        {
-                            "group": "Sui RPC API",
-                            "pages": [
-                                "api-reference/node-rpc/sui/overview"
-                            ]
-                        },
+                        "api-reference/node-rpc/sui/overview",
                         {
                             "group": "Ton RPC API",
                             "pages": [
@@ -957,6 +951,25 @@
                                 "api-reference/web3-api/inscription/inscription-asc20/get-tick-activities-from-asc20",
                                 "api-reference/web3-api/inscription/inscription-asc20/get-account-balance-from-asc20",
                                 "api-reference/web3-api/inscription/inscription-asc20/get-account-activities-from-asc20"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "group": "SQL API",
+                    "pages": [
+                        {
+                            "group": "Alpha",
+                            "pages": [
+                                "api-reference/sql-api/execute-queries",
+                                "api-reference/sql-api/get-query-status",
+                                "api-reference/sql-api/get-query-results"
+                            ]
+                        },
+                        {
+                            "group": "Classic(Deprecated)",
+                            "pages": [
+                                "api-reference/sql-api/data-cloud-sql-query"
                             ]
                         }
                     ]
