@@ -663,9 +663,16 @@
         {
             "group": "Data Platform",
             "pages": [
-                "platform/welcome",
+                "platform/overview",
                 "platform/supported-networks/supported-networks",
-                "platform/datasets/overview",
+                {
+                    "group": "Datasets",
+                    "pages": [
+                        "platform/datasets/overview",
+                        "platform/datasets/inscription-and-rune",
+                        "platform/datasets/data-catalog"
+                    ]
+                },
                 {
                     "group": "Data Cloud",
                     "pages": [
